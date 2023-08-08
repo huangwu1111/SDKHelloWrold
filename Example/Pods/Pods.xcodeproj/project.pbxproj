@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12FE98A0F543A2A3207EC5598F91B9EE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A3DEF204C813E5A7F735D232CC1B3C /* ReplaceMe.swift */; };
+		12FE98A0F543A2A3207EC5598F91B9EE /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A3DEF204C813E5A7F735D232CC1B3C /* Car.swift */; };
 		24CC4D0278BB1D7410D8EED41A943010 /* Pods-SDKHelloWrold_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F37116F6F3CB306B2EAC517F4264375 /* Pods-SDKHelloWrold_Tests-dummy.m */; };
 		5A956A37BEB96BB1248060E280F8C9DB /* SDKHelloWrold-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFDDFC57594E08680F4F90C4E6E8D6 /* SDKHelloWrold-dummy.m */; };
 		60DDA4E45E2D13C9B1F3D00385F869D0 /* Pods-SDKHelloWrold_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBE05FD627D25206114F52025F7C9C4 /* Pods-SDKHelloWrold_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -40,7 +40,7 @@
 		02CED785BD66971AA5F62D98A127BE0A /* Pods-SDKHelloWrold_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKHelloWrold_Example.release.xcconfig"; sourceTree = "<group>"; };
 		158B36D4CB631E63BD9EE4D9D6F858FB /* Pods-SDKHelloWrold_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDKHelloWrold_Tests.modulemap"; sourceTree = "<group>"; };
 		19F901C8219C959C74933EEC10B4CC79 /* Pods-SDKHelloWrold_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKHelloWrold_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1DA49769DD08C48FFD84D6A7029C94DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1DA49769DD08C48FFD84D6A7029C94DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		233BB03A352E008301741C257D2BF0E0 /* SDKHelloWrold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKHelloWrold.debug.xcconfig; sourceTree = "<group>"; };
 		29004C2F4DE8EBAA7C83245E16258522 /* SDKHelloWrold.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKHelloWrold.modulemap; sourceTree = "<group>"; };
 		2D2BB89C046287E170D792D1DBC8B733 /* Pods-SDKHelloWrold_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKHelloWrold_Example-dummy.m"; sourceTree = "<group>"; };
@@ -49,13 +49,13 @@
 		496DF2A95B456FE8683602021D42B28A /* Pods-SDKHelloWrold_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKHelloWrold_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F37116F6F3CB306B2EAC517F4264375 /* Pods-SDKHelloWrold_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKHelloWrold_Tests-dummy.m"; sourceTree = "<group>"; };
 		51159F2817509594ABD30F3CE45848B7 /* SDKHelloWrold */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDKHelloWrold; path = SDKHelloWrold.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61A3DEF204C813E5A7F735D232CC1B3C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SDKHelloWrold/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		61A3DEF204C813E5A7F735D232CC1B3C /* Car.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Car.swift; path = SDKHelloWrold/Classes/Car.swift; sourceTree = "<group>"; };
 		728D71691C0ED79783784669D2CCA29F /* Pods-SDKHelloWrold_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SDKHelloWrold_Example"; path = Pods_SDKHelloWrold_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7967DCEAC288BACDDB994E5992EF1A82 /* SDKHelloWrold.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDKHelloWrold.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		810EB82B59F90D2679BF30EEA249D1E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7967DCEAC288BACDDB994E5992EF1A82 /* SDKHelloWrold.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SDKHelloWrold.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		810EB82B59F90D2679BF30EEA249D1E0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9413706BD9FCFCE760BF67085695B66E /* Pods-SDKHelloWrold_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKHelloWrold_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AAF0A18F943AB5C6FC15886EA761C9BA /* SDKHelloWrold.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKHelloWrold.release.xcconfig; sourceTree = "<group>"; };
 		AD7DCC416A165F6F89E4F2767853CE71 /* Pods-SDKHelloWrold_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDKHelloWrold_Example.modulemap"; sourceTree = "<group>"; };
 		AEBE05FD627D25206114F52025F7C9C4 /* Pods-SDKHelloWrold_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDKHelloWrold_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 		158D97C0CCF07E7A69DDBCE0DE3A8527 /* SDKHelloWrold */ = {
 			isa = PBXGroup;
 			children = (
-				61A3DEF204C813E5A7F735D232CC1B3C /* ReplaceMe.swift */,
+				61A3DEF204C813E5A7F735D232CC1B3C /* Car.swift */,
 				890C7F45AFF183E840CBE490ECBFD251 /* Pod */,
 				2CC5DC5598916302B6729A6C10C1BD27 /* Support Files */,
 			);
@@ -383,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12FE98A0F543A2A3207EC5598F91B9EE /* ReplaceMe.swift in Sources */,
+				12FE98A0F543A2A3207EC5598F91B9EE /* Car.swift in Sources */,
 				5A956A37BEB96BB1248060E280F8C9DB /* SDKHelloWrold-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,8 +526,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
