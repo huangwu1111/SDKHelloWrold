@@ -1,0 +1,6 @@
+framework module SDKHelloWrold {
+  umbrella header "SDKHelloWrold-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SDKHelloWrold (0.1.0)
+
+DEPENDENCIES:
+  - SDKHelloWrold (from `../`)
+
+EXTERNAL SOURCES:
+  SDKHelloWrold:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDKHelloWrold: 9a368ba5cbcf4f18cbdfbcc75069070256b1b47e
+
+PODFILE CHECKSUM: 618256252927be7d5d9088541bbbddc004664d20
+
+COCOAPODS: 1.12.1
