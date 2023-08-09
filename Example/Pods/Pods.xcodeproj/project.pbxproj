@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		12FE98A0F543A2A3207EC5598F91B9EE /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A3DEF204C813E5A7F735D232CC1B3C /* Car.swift */; };
 		24CC4D0278BB1D7410D8EED41A943010 /* Pods-SDKHelloWrold_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F37116F6F3CB306B2EAC517F4264375 /* Pods-SDKHelloWrold_Tests-dummy.m */; };
+		38DEDFA52A831D4400364080 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DEDFA42A831D4400364080 /* Teacher.swift */; };
 		5A956A37BEB96BB1248060E280F8C9DB /* SDKHelloWrold-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CFDDFC57594E08680F4F90C4E6E8D6 /* SDKHelloWrold-dummy.m */; };
 		60DDA4E45E2D13C9B1F3D00385F869D0 /* Pods-SDKHelloWrold_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEBE05FD627D25206114F52025F7C9C4 /* Pods-SDKHelloWrold_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		688813473B3751AB85677F9284AAF74A /* Pods-SDKHelloWrold_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F901C8219C959C74933EEC10B4CC79 /* Pods-SDKHelloWrold_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +45,7 @@
 		233BB03A352E008301741C257D2BF0E0 /* SDKHelloWrold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKHelloWrold.debug.xcconfig; sourceTree = "<group>"; };
 		29004C2F4DE8EBAA7C83245E16258522 /* SDKHelloWrold.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDKHelloWrold.modulemap; sourceTree = "<group>"; };
 		2D2BB89C046287E170D792D1DBC8B733 /* Pods-SDKHelloWrold_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKHelloWrold_Example-dummy.m"; sourceTree = "<group>"; };
+		38DEDFA42A831D4400364080 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
 		3C556B8AA09E636A1C457F61DABA67C2 /* Pods-SDKHelloWrold_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKHelloWrold_Tests-Info.plist"; sourceTree = "<group>"; };
 		3DDA0DD5FE9C764CBB36FD0AE82A6180 /* SDKHelloWrold-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDKHelloWrold-umbrella.h"; sourceTree = "<group>"; };
 		496DF2A95B456FE8683602021D42B28A /* Pods-SDKHelloWrold_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKHelloWrold_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				61A3DEF204C813E5A7F735D232CC1B3C /* Car.swift */,
+				38DEDFA42A831D4400364080 /* Teacher.swift */,
 				890C7F45AFF183E840CBE490ECBFD251 /* Pod */,
 				2CC5DC5598916302B6729A6C10C1BD27 /* Support Files */,
 			);
@@ -383,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38DEDFA52A831D4400364080 /* Teacher.swift in Sources */,
 				12FE98A0F543A2A3207EC5598F91B9EE /* Car.swift in Sources */,
 				5A956A37BEB96BB1248060E280F8C9DB /* SDKHelloWrold-dummy.m in Sources */,
 			);
