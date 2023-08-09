@@ -32,8 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SDKHelloWrold/Classes/**/*'
   s.swift_version = '5'
-  s.static_framework = true
-  s.vendored_framework = 'UserActionStatisticsSDK.xcframework'
+#  s.static_framework = true
+#  s.vendored_framework = 'UserActionStatisticsSDK.xcframework'
   
   # s.resource_bundles = {
   #   'SDKHelloWrold' => ['SDKHelloWrold/Assets/*.png']
