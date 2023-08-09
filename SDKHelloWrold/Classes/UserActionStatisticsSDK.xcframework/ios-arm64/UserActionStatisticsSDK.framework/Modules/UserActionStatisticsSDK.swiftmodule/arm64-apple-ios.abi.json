@@ -1,0 +1,2561 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite3",
+        "printedName": "SQLite3",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SqlFile",
+        "printedName": "SqlFile",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SqlFile",
+                "printedName": "UserActionStatisticsSDK.SqlFile",
+                "usr": "c:@M@UserActionStatisticsSDK@objc(cs)SqlFile"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UserActionStatisticsSDK@objc(cs)SqlFile(im)init",
+            "mangledName": "$s23UserActionStatisticsSDK7SqlFileCACycfc",
+            "moduleName": "UserActionStatisticsSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "insertOneData",
+            "printedName": "insertOneData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UserActionStatisticsSDK@objc(cs)SqlFile(im)insertOneData",
+            "mangledName": "$s23UserActionStatisticsSDK7SqlFileC13insertOneDatayyF",
+            "moduleName": "UserActionStatisticsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "insertmutipleData",
+            "printedName": "insertmutipleData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UserActionStatisticsSDK@objc(cs)SqlFile(im)insertmutipleData",
+            "mangledName": "$s23UserActionStatisticsSDK7SqlFileC17insertmutipleDatayyF",
+            "moduleName": "UserActionStatisticsSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UserActionStatisticsSDK@objc(cs)SqlFile",
+        "mangledName": "$s23UserActionStatisticsSDK7SqlFileC",
+        "moduleName": "UserActionStatisticsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDeviceInfo",
+        "printedName": "UserDeviceInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDeviceInfo",
+                "printedName": "UserActionStatisticsSDK.UserDeviceInfo",
+                "usr": "c:@M@UserActionStatisticsSDK@objc(cs)UserDeviceInfo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UserActionStatisticsSDK@objc(cs)UserDeviceInfo(im)init",
+            "mangledName": "$s23UserActionStatisticsSDK0A10DeviceInfoCACycfc",
+            "moduleName": "UserActionStatisticsSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceModel",
+            "printedName": "deviceModel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UserActionStatisticsSDK@objc(cs)UserDeviceInfo(im)deviceModel",
+            "mangledName": "$s23UserActionStatisticsSDK0A10DeviceInfoC11deviceModelSSyF",
+            "moduleName": "UserActionStatisticsSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deviceModel",
+            "printedName": "deviceModel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UserActionStatisticsSDK@objc(cs)UserDeviceInfo(cm)deviceModel",
+            "mangledName": "$s23UserActionStatisticsSDK0A10DeviceInfoC11deviceModelSSyFZ",
+            "moduleName": "UserActionStatisticsSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "systemversion",
+            "printedName": "systemversion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UserActionStatisticsSDK@objc(cs)UserDeviceInfo(im)systemversion",
+            "mangledName": "$s23UserActionStatisticsSDK0A10DeviceInfoC13systemversionSSyF",
+            "moduleName": "UserActionStatisticsSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "systemVersion",
+            "printedName": "systemVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UserActionStatisticsSDK@objc(cs)UserDeviceInfo(cm)systemVersion",
+            "mangledName": "$s23UserActionStatisticsSDK0A10DeviceInfoC13systemVersionSSyFZ",
+            "moduleName": "UserActionStatisticsSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UserActionStatisticsSDK@objc(cs)UserDeviceInfo",
+        "mangledName": "$s23UserActionStatisticsSDK0A10DeviceInfoC",
+        "moduleName": "UserActionStatisticsSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Device",
+        "printedName": "Device",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(entity:insertInto:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Device",
+                "printedName": "UserActionStatisticsSDK.Device",
+                "usr": "c:@M@UserActionStatisticsSDK@objc(cs)Device"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSEntityDescription",
+                "printedName": "CoreData.NSEntityDescription",
+                "usr": "c:objc(cs)NSEntityDescription"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreData.NSManagedObjectContext?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSManagedObjectContext",
+                    "printedName": "CoreData.NSManagedObjectContext",
+                    "usr": "c:objc(cs)NSManagedObjectContext"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@UserActionStatisticsSDK@objc(cs)Device(im)initWithEntity:insertIntoManagedObjectContext:",
+            "mangledName": "$s23UserActionStatisticsSDK6DeviceC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+            "moduleName": "UserActionStatisticsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchRequest",
+            "printedName": "fetchRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSFetchRequest",
+                "printedName": "CoreData.NSFetchRequest<UserActionStatisticsSDK.Device>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Device",
+                    "printedName": "UserActionStatisticsSDK.Device",
+                    "usr": "c:@M@UserActionStatisticsSDK@objc(cs)Device"
+                  }
+                ],
+                "usr": "c:objc(cs)NSFetchRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23UserActionStatisticsSDK6DeviceC12fetchRequestSo07NSFetchG0CyACGyFZ",
+            "mangledName": "$s23UserActionStatisticsSDK6DeviceC12fetchRequestSo07NSFetchG0CyACGyFZ",
+            "moduleName": "UserActionStatisticsSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "NonObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "deviceId",
+            "printedName": "deviceId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@UserActionStatisticsSDK@objc(cs)Device(py)deviceId",
+            "mangledName": "$s23UserActionStatisticsSDK6DeviceC8deviceIdSSSgvp",
+            "moduleName": "UserActionStatisticsSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@UserActionStatisticsSDK@objc(cs)Device(im)deviceId",
+                "mangledName": "$s23UserActionStatisticsSDK6DeviceC8deviceIdSSSgvg",
+                "moduleName": "UserActionStatisticsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@UserActionStatisticsSDK@objc(cs)Device(im)setDeviceId:",
+                "mangledName": "$s23UserActionStatisticsSDK6DeviceC8deviceIdSSSgvs",
+                "moduleName": "UserActionStatisticsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "launchDate",
+            "printedName": "launchDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@UserActionStatisticsSDK@objc(cs)Device(py)launchDate",
+            "mangledName": "$s23UserActionStatisticsSDK6DeviceC10launchDates5Int64Vvp",
+            "moduleName": "UserActionStatisticsSDK",
+            "declAttributes": [
+              "Dynamic",
+              "AccessControl",
+              "NSManaged",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@UserActionStatisticsSDK@objc(cs)Device(im)launchDate",
+                "mangledName": "$s23UserActionStatisticsSDK6DeviceC10launchDates5Int64Vvg",
+                "moduleName": "UserActionStatisticsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@UserActionStatisticsSDK@objc(cs)Device(im)setLaunchDate:",
+                "mangledName": "$s23UserActionStatisticsSDK6DeviceC10launchDates5Int64Vvs",
+                "moduleName": "UserActionStatisticsSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UserActionStatisticsSDK@objc(cs)Device",
+        "mangledName": "$s23UserActionStatisticsSDK6DeviceC",
+        "moduleName": "UserActionStatisticsSDK",
+        "objc_name": "Device",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSManagedObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "CoreData.NSManagedObject",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "UserActionStatisticsSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "Array",
+      "offset": 201,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 221,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 33,
+      "value": "\"打开数据库成功 \""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 23,
+      "value": "\"打开数据库失败\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 260,
+      "value": "\"CREATE TABLE Computer(Id INT PRIMARY KEY NOT NULL,\nName CHAR(255),\nWeight Int,\nPrice Float);\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1199,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 1335,
+      "length": 20,
+      "value": "\"创建表格成功\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 1400,
+      "length": 21,
+      "value": "\"创建表格失败2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 1472,
+      "length": 21,
+      "value": "\"创建表格失败1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1678,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 1687,
+      "length": 5,
+      "value": "\"hhh\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1702,
+      "length": 3,
+      "value": "516"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "FloatLiteral",
+      "offset": 1714,
+      "length": 6,
+      "value": "231.02"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 1752,
+      "length": 66,
+      "value": "\"INSERT INTO Computer (Id, Name, Weight, Price) VALUES (?,?,?,?);\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1923,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2024,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2091,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2106,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2161,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2234,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 2347,
+      "length": 20,
+      "value": "\"插入数据成功\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 2412,
+      "length": 20,
+      "value": "\"插入数据失败\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 2703,
+      "length": 69,
+      "value": "\"INSERT INTO Computer (Id, Name, Weight, Price) VALUES (?, ?, ?, ?);\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2877,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3030,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3114,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3125,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3201,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3291,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 3412,
+      "length": 20,
+      "value": "\"插入数据成功\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 3485,
+      "length": 20,
+      "value": "\"插入数据失败\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3780,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3784,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 3835,
+      "length": 10,
+      "value": "\"computer\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 3848,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 3857,
+      "length": 35,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3876,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "FloatLiteral",
+      "offset": 3887,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4094,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/SqlFile.swift",
+      "kind": "StringLiteral",
+      "offset": 4197,
+      "length": 14,
+      "value": "\"goods.sqlite\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1060,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1153,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1310,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 14,
+      "value": "\"iPod Touch 5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1388,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1438,
+      "length": 14,
+      "value": "\"iPod Touch 6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1479,
+      "length": 11,
+      "value": "\"iPhone3,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1492,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1516,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1540,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1590,
+      "length": 11,
+      "value": "\"iPhone 4s\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1615,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1628,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1665,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1702,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1739,
+      "length": 11,
+      "value": "\"iPhone 5c\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1764,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1777,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1814,
+      "length": 11,
+      "value": "\"iPhone 5s\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1839,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1889,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1913,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1963,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1992,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2042,
+      "length": 11,
+      "value": "\"iPhone 6s\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2067,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2117,
+      "length": 16,
+      "value": "\"iPhone 6s Plus\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2147,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2197,
+      "length": 28,
+      "value": "\"iPhone SE (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2239,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2252,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2289,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2313,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2326,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2363,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2392,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2406,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2442,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2466,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2480,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2516,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2545,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2559,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2595,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2619,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2669,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2694,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2708,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2744,
+      "length": 15,
+      "value": "\"iPhone XS MAX\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2773,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2823,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2848,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2898,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2923,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2973,
+      "length": 15,
+      "value": "\"iPhone 11 pro\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3002,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3052,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3085,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3135,
+      "length": 28,
+      "value": "\"iPhone SE (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3177,
+      "length": 12,
+      "value": "\"iPhone13,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3227,
+      "length": 16,
+      "value": "\"iPhone 12 mini\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3257,
+      "length": 12,
+      "value": "\"iPhone13,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3307,
+      "length": 11,
+      "value": "\"iPhone 12\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3332,
+      "length": 12,
+      "value": "\"iPhone13,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3382,
+      "length": 15,
+      "value": "\"iPhone 12 Pro\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3411,
+      "length": 12,
+      "value": "\"iPhone13,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3461,
+      "length": 19,
+      "value": "\"iPhone 12 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3494,
+      "length": 12,
+      "value": "\"iPhone14,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3544,
+      "length": 16,
+      "value": "\"iPhone 13 mini\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3574,
+      "length": 12,
+      "value": "\"iPhone14,5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3624,
+      "length": 11,
+      "value": "\"iPhone 13\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3649,
+      "length": 12,
+      "value": "\"iPhone14,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3699,
+      "length": 15,
+      "value": "\"iPhone 13 Pro\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3728,
+      "length": 12,
+      "value": "\"iPhone14,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3778,
+      "length": 19,
+      "value": "\"iPhone 13 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3811,
+      "length": 12,
+      "value": "\"iPhone14,6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3861,
+      "length": 28,
+      "value": "\"iPhone SE (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3903,
+      "length": 12,
+      "value": "\"iPhone14,7\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3953,
+      "length": 11,
+      "value": "\"iPhone 14\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3978,
+      "length": 12,
+      "value": "\"iPhone14,8\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4028,
+      "length": 16,
+      "value": "\"iPhone 14 Plus\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4058,
+      "length": 12,
+      "value": "\"iPhone15,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4108,
+      "length": 15,
+      "value": "\"iPhone 14 Pro\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4137,
+      "length": 12,
+      "value": "\"iPhone15,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4187,
+      "length": 19,
+      "value": "\"iPhone 14 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4233,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4244,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4255,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4266,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4283,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4305,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4316,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4327,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4355,
+      "length": 8,
+      "value": "\"iPad 3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4377,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4388,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4399,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4427,
+      "length": 8,
+      "value": "\"iPad 4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4449,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4461,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4499,
+      "length": 8,
+      "value": "\"iPad 5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4521,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4532,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4571,
+      "length": 8,
+      "value": "\"iPad 6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4593,
+      "length": 10,
+      "value": "\"iPad7,11\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4605,
+      "length": 10,
+      "value": "\"iPad7,12\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4643,
+      "length": 8,
+      "value": "\"iPad 7\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4665,
+      "length": 10,
+      "value": "\"iPad11,6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4677,
+      "length": 10,
+      "value": "\"iPad11,7\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4715,
+      "length": 8,
+      "value": "\"iPad 8\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4737,
+      "length": 10,
+      "value": "\"iPad12,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4749,
+      "length": 10,
+      "value": "\"iPad12,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4787,
+      "length": 8,
+      "value": "\"iPad 9\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4811,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4822,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4833,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4861,
+      "length": 10,
+      "value": "\"iPad Air\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4885,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4896,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4935,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4961,
+      "length": 10,
+      "value": "\"iPad11,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4973,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5011,
+      "length": 12,
+      "value": "\"iPad Air 3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5037,
+      "length": 10,
+      "value": "\"iPad13,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5049,
+      "length": 10,
+      "value": "\"iPad13,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5087,
+      "length": 12,
+      "value": "\"iPad Air 4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5113,
+      "length": 11,
+      "value": "\"iPad13,16\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5126,
+      "length": 11,
+      "value": "\"iPad13,17\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5163,
+      "length": 12,
+      "value": "\"iPad Air 5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5198,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5209,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5220,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5248,
+      "length": 11,
+      "value": "\"iPad Mini\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5273,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5284,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5295,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5323,
+      "length": 13,
+      "value": "\"iPad Mini 2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5350,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5361,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5372,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5400,
+      "length": 13,
+      "value": "\"iPad Mini 3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5427,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5438,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5477,
+      "length": 13,
+      "value": "\"iPad Mini 4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5504,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5516,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5554,
+      "length": 13,
+      "value": "\"iPad Mini 5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5581,
+      "length": 10,
+      "value": "\"iPad14,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5593,
+      "length": 10,
+      "value": "\"iPad14,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5631,
+      "length": 13,
+      "value": "\"iPad Mini 6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5658,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5669,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5680,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5691,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5702,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5713,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5724,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5735,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5746,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5757,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5768,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5779,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5790,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5801,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5812,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5823,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5834,
+      "length": 9,
+      "value": "\"iPad8,9\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5845,
+      "length": 10,
+      "value": "\"iPad8,10\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5857,
+      "length": 10,
+      "value": "\"iPad8,11\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5869,
+      "length": 10,
+      "value": "\"iPad8,12\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5896,
+      "length": 10,
+      "value": "\"iPad Pro\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5920,
+      "length": 12,
+      "value": "\"AppleTV5,3\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5970,
+      "length": 10,
+      "value": "\"Apple TV\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5994,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 6002,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 6011,
+      "length": 7,
+      "value": "\"arm64\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/UserDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 6044,
+      "length": 11,
+      "value": "\"Simulator\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 908,
+      "length": 11,
+      "value": "\"TempModel\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 936,
+      "length": 6,
+      "value": "\"momd\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 23,
+      "value": "\"bundle资源不存在\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 26,
+      "value": "\"无法获取到数据库\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1218,
+      "length": 11,
+      "value": "\"TempModel\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1420,
+      "length": 42,
+      "value": "\"Unresolved error \""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 1775,
+      "length": 8,
+      "value": "\"Device\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2032,
+      "length": 20,
+      "value": "\"创建Device成功\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2162,
+      "length": 29,
+      "value": "\"创建Device失败,\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2190,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2525,
+      "length": 8,
+      "value": "\"Device\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2674,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2953,
+      "length": 29,
+      "value": "\"获取device失败,\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 2981,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3608,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3629,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3674,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3723,
+      "length": 20,
+      "value": "\"传入参数错误\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3777,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3797,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3846,
+      "length": 20,
+      "value": "\"传入参数错误\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 3984,
+      "length": 44,
+      "value": "\"没有正确初始化NSPersistentContainer\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 4388,
+      "length": 29,
+      "value": "\"没有正确初始化device\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4527,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4626,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/UserActionStatistics\/UserActionStatisticsSDK\/UserActionStatisticsSDK\/LocalStore.swift",
+      "kind": "StringLiteral",
+      "offset": 4836,
+      "length": 29,
+      "value": "\"更新device的数据失败\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Library\/Developer\/Xcode\/DerivedData\/UserActionStatistics-workspace-aluhxzvqykhhvnaffpyhhkhqarai\/Build\/Intermediates.noindex\/ArchiveIntermediates\/UserActionStatisticsSDK\/IntermediateBuildFilesPath\/UserActionStatisticsSDK.build\/Release-iphoneos\/UserActionStatisticsSDK.build\/DerivedSources\/CoreDataGenerated\/TempModel\/Device+CoreDataProperties.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 8,
+      "value": "\"Device\""
+    }
+  ]
+}
